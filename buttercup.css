@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+   color: rgb(0, 0, 0);
+   background-image: url("wallpaperflare.com_wallpaper.webp");
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   
+}
+
+.container{
+   font-family: roboto,sans-serif;
+   position: relative;
+}
+
+.img {
+   position: absolute;
+   right: 20em;
+}
+.checkbox {
+   font-size: 70px;  
+ }
+
+ .morning,.school{
+   font-size: larger;
+ }
+ .early,.fclass{
+   left: 30px;
+   position: relative;
+ }
+ 
+ 
+ 
