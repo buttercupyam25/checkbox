@@ -35,6 +35,11 @@ document.getElementById('task9').addEventListener('change', function() {
     checkTasks();
 });
 
+document.getElementById('task10').addEventListener('change', function() {
+    checkTasks();
+});
+
+
 function checkTasks() {
     // Check if all tasks are checked
     if (document.getElementById('task1').checked && 
@@ -46,9 +51,10 @@ function checkTasks() {
         document.getElementById('task7').checked &&
         document.getElementById('task8').checked &&
         document.getElementById('task9').checked &&
+        document.getElementById('task10').checked &&
         !imageShown) {
         // Display a message or show an image
-        displayGoodJobImage();
+        displayGoodJobImage();   
     }           
 }
 

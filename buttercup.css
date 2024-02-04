@@ -1,36 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 body{
    color: rgb(0, 0, 0);
-   background-image: url("wallpaperflare.com_wallpaper.webp");
+   background-image: url("https://img.freepik.com/free-vector/geometric-background-japanese-style_52683-34400.jpg?w=1060&t=st=1707046761~exp=1707047361~hmac=a41602728bd01628ab20515876497737c55db61305de8ca821a472a4b93a5c5f");
    display: flex;
    justify-content: center;
-   align-items: center;
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    height: 100vh;
-   
+   margin: 0;
 }
 
 .container{
-   font-family: roboto,sans-serif;
+   font-family: 'Protest Revolution', sans-serif;
+   cursor: pointer;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
    position: relative;
 }
 
 .img {
    position: absolute;
-   right: 20em;
+   right: 20px;
 }
-.checkbox {
-   font-size: 70px;  
+
+.checkbox{
+   text-align: center;
+   font-size: 60px;
+   padding-left: 45px;
+   margin: 0;
  }
 
- .morning,.school{
-   font-size: larger;
+ .bx{
+   font-size: 60px;
+   position: absolute;
+   padding-top: 10px;
  }
+
+ 
+
  .early,.fclass{
-   left: 30px;
-   position: relative;
+   font-size: x-large;
+   padding-left: 65px;
+ }
+
+ .m1,.m2{
+   font-size: xx-large;
+   text-align: center;
  }
  
  
